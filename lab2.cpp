@@ -2,16 +2,16 @@
 #include "Burrito.h"
 
 
-using namespace std; // making life easier so taht we do not need to use std::cin , std::cout, etc.
+using namespace std; // making life easier so that we do not need to use std::cin , std::cout, etc.
 
 // TO DO
-// Your Name:
+// Your Names:
 
 
 int main()
 {
 
-
+	// All the following are tests for your burrito class, please complete the burrito.cpp file to run this program
 	Burrito b1("Asada", false);
 	cout << "your result is "<< b1.price() << ". It should be 5" << endl;
 
